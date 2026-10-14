@@ -139,9 +139,9 @@ data preparation.
 The neural-network branch uses three architectures:
 
   -----------------------------------------------------------------------------
-  Configuration   Hidden        Training     Learning     Momentum   Local seed
-                  layers          cycles         rate              
-  --------------- --------- ------------ ------------ ------------ ------------
+  Configuration  | Hidden   |  Training  |   Learning |  Momentum   |  Local seed
+                 | layers   |  cycles    |    rate    |             |
+  ---------------| ---------|------------|------------| ------------|------------
   **NN A**        8 neurons          200         0.01          0.9         6461
 
   **NN B**        16                 200         0.01          0.9         6461
