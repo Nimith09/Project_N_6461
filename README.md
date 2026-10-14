@@ -107,31 +107,14 @@ data preparation.
 
 ### Classical models
 
-  -----------------------------------------------------------------------
-  Model                               Saved configuration
-  ----------------------------------- -----------------------------------
-  **Logistic Regression**             H2O Logistic Regression operator;
-                                      automatic solver; mean imputation
-                                      configured for missing values;
-                                      maximum iterations set to the
-                                      operator default/unlimited setting.
-
-  **Naive Baseline**                  Default Model using the `mode`
-                                      method.
-
-  **Naive Bayes**                     Naive Bayes classifier with its
-                                      saved default configuration.
-
-  **Decision Tree**                   Gain-ratio criterion; maximum depth
-                                      `3`; minimum leaf size `2`; minimum
-                                      size for split `4`; minimum gain
-                                      `0.01`.
-
-  **Random Forest**                   Three forest configurations are
-                                      evaluated: `50`, `100`, and `200`
-                                      trees. Each uses gain ratio,
-                                      maximum depth `10`, subset ratio
-                                      `0.2`, and confidence voting. 
+Model	Saved Configuration
+Logistic Regression	H2O Logistic Regression operator; automatic solver; mean imputation configured for missing values; maximum iterations set to the operator default/unlimited setting.
+Naive Baseline	Default Model using the mode method.
+Naive Bayes	Naive Bayes classifier with its saved default configuration.
+Decision Tree	Gain-ratio criterion; maximum depth 3; minimum leaf size 2; minimum size for split 4; minimum gain 0.01.
+Random Forest (50 trees)	Gain-ratio criterion; maximum depth 10; subset ratio 0.2; confidence voting; 50 trees.
+Random Forest (100 trees)	Gain-ratio criterion; maximum depth 10; subset ratio 0.2; confidence voting; 100 trees.
+Random Forest (200 trees)	Gain-ratio criterion; maximum depth 10; subset ratio 0.2; confidence voting; 200 trees.
   -----------------------------------------------------------------------
 
 ### Neural-network configurations
